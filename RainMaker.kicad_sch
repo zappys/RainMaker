@@ -4939,7 +4939,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 353.06 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8cd4f790-27f7-444b-b26a-b93e49e0a00c)
-    (property "Reference" "PROG1" (at 355.6 92.71 0)
+    (property "Reference" "J2" (at 355.6 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x06" (at 355.6 95.25 0)
@@ -4960,7 +4960,7 @@
     (instances
       (project "RainMaker"
         (path "/524c1494-4c03-4fd8-9133-1e33af151a83"
-          (reference "PROG1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -6105,7 +6105,7 @@
   (symbol (lib_id "easyeda2kicad:DB128V-5.0-15P") (at 353.06 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f491976b-a7be-4f29-897d-3f329ead28c4)
-    (property "Reference" "ZONE OUT CONNECTOR1" (at 355.6 147.32 0)
+    (property "Reference" "J3" (at 355.6 147.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw Terminal - 15P" (at 355.6 149.86 0)
@@ -6138,7 +6138,7 @@
     (instances
       (project "RainMaker"
         (path "/524c1494-4c03-4fd8-9133-1e33af151a83"
-          (reference "ZONE OUT CONNECTOR1") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -6227,7 +6227,7 @@
   (symbol (lib_id "RF_Module:ESP32-WROOM-32") (at 224.79 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbd3eacb-e1da-4d4c-bed5-6d3ca3f72d95)
-    (property "Reference" "IC1" (at 218.44 104.14 0)
+    (property "Reference" "U2" (at 218.44 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ESP32-WROOM-32D" (at 226.06 104.14 0)
@@ -6281,7 +6281,7 @@
     (instances
       (project "RainMaker"
         (path "/524c1494-4c03-4fd8-9133-1e33af151a83"
-          (reference "IC1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
